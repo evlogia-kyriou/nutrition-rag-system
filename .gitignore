@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data
+data/raw/*.pdf
+data/vector_db/
+models/*.gguf
+models/*.bin
+
+# Logs
+*.logs
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_STORE
+Thumbs.db
+
+# Environment
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Processed data might get large
+data/processed/*.txt
+data/processed/*.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jupyter notebook outputs (if you use notebooks)
+*.ipynb_checkpoints/
+
+# Model checkpoints (if you fine-tune)
+checkpoints/

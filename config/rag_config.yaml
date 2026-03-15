@@ -1,0 +1,19 @@
+indexing:
+  chunk_size: 512
+  chunk_overlap: 128
+  chunking_strategy: "sentence_window"
+  sentence_window_size: 3
+  metadata_fields:
+    - book_name
+    - chapter
+    - page_number
+
+vector_store:
+  type: "chroma"
+  persist_directory: "./data/vector_db"
+  collection_name: "nutrition_docs"
+
+retrieval:
+  top_k: 5
+  similarity_threshold: 0.7
+  reranking: false

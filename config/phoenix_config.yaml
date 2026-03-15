@@ -1,0 +1,16 @@
+tracing:
+  enabled: true
+  endpoint: "http://localhost:6006/v1/traces"
+  project_name: "nutrition-rag"
+
+evaluation:
+  enabled: true
+  metrics:
+    - relevance
+    - hallucination
+  eval_model: "local"
+
+metrics:
+  track_latency: true
+  track_token_usage: true
+  track_cost: false
