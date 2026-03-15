@@ -82,7 +82,7 @@ An intelligent nutrition assistant that answers questions by retrieving informat
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/nutrition-rag-chatbot.git
+git clone https://github.com/evlogia-kyriou/nutrition-rag-chatbot.git
 cd nutrition-rag-chatbot
 
 # Create virtual environment
@@ -399,11 +399,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 **Contact**
 
-**Your Name** - [Your Email]
+**Jireh Fessenden** - [fessenden.jf@gmail.com]
 
-**Project Link:** [https://github.com/yourusername/nutrition-rag-chatbot](https://github.com/yourusername/nutrition-rag-chatbot)
+**Project Link:** [https://github.com/evlogia-kyriou/nutrition-rag-chatbot](https://github.com/evlogia-kyriou/nutrition-rag-chatbot)
 
-**Portfolio:** [Upwork Profile](your-upwork-link)
+**Portfolio:** [Upwork Profile]([your-upwork-link](https://www.upwork.com/freelancers/~01eae45ff18ddc1353?mp_source=share))
 
 ---
 
